@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+    color: white;
+}
+object{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    font-size: 2rem;
+    height: 10%;
+}
+.left_footer{
+    margin-left: 10%;
+}
+.right_footer{
+    margin-right: 10%;
+}
+.left_footer ul li{
+    margin-bottom: 15%;
+}
+.left_footer ul li:nth-child(2){
+    font-size: 1.5rem;
+}
+.mid_footer2{
+    position: relative;
+    width: 10%;
+    flex: 0 0 auto;
+}
+dt{
+    float: left;
+    width: 50%;
+    margin-bottom: 5%;
+}
+dd{
+    margin-bottom: 5%;
+}
+dt:nth-child(odd) {
+    clear: both;
+}
+li{
+    margin-bottom: 10%;
+}
+.bi-facebook{
+    font-size: 3rem;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transform-style: ease-in-out;
+    margin-right: 10%;
+}
+.bi-facebook:hover{
+    color: blue;
+}
+.bi-instagram{
+    font-size: 3rem;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transform-style: ease-in-out;
+    margin-top: 15%;
+}
+.bi-instagram:hover {
+    color: #E1306C;
+}
+.underline-animation {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: red;
+        transition: width 0.3s ease-in-out;
+        }
+
+    &:hover {
+        color: blue;
+        &::before {
+          width: 100%;
+        }
+      }
+}
+.upper_color_change{
+    color: white;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+        color: blue;
+    }
+}
+button{
+    background-color: black;
+    color: white;
+    border: solid;
+    padding: 4% 8%;
+    border-radius: 1.5rem;
+    transition-property: background-color, color;
+    transition-duration: 0.4s;
+    transform-style: ease-in-out;    
+}
+button:hover{
+    background-color: white;
+    color: mediumblue;
+    border-color: white;
+}
+@media screen and (max-width: 1500px) {
+    dt {
+        width: 100%;
+    }
+
+    dd {
+        margin-left: 0;
+    }
+    dt {
+        clear: both;
+    }
+}
+@media screen and (max-width: 900px){
+    object{
+        flex-direction: column;
+        text-align: center;
+    }
+    .left_footer{
+        margin: auto;
+    }
+    .mid_footer2{
+        display: none;
+    }
+    .left_footer ul li{
+        margin: 2% auto;      
+    }
+    .mid_footer1 ul li{
+        margin: 2% auto;
+    }
+    .right_footer{
+        margin: auto;
+    }
+    .right_footer i{
+        margin: auto;
+
+    }
+}
+

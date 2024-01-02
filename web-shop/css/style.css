@@ -1,0 +1,56 @@
+.auto-height-iframe{
+    border: none;
+    width: 100%;
+    margin: 0;
+}
+body{
+    margin: 0 auto;
+    height: 100%;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    border: solid;
+    padding: 4% 8%;
+    border-radius: 1.5rem;
+    transition-property: background-color, color;
+    transition-duration: 0.4s;
+    transform-style: ease-in-out;    
+}
+button:hover{
+    background-color: white;
+    color: mediumblue;
+    border-color: white;
+}
+.underline-animation {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: red;
+        transition: width 0.3s ease-in-out;
+        }
+
+    &:hover {
+        color: blue;
+        &::before {
+          width: 100%;
+        }
+      }
+}
+ul{
+    list-style: none;
+    padding: none;
+}
+a{
+    text-decoration: none;
+}

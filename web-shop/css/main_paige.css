@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    image-rendering: crisp-edges;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    background-image: url(../images/other/bmw_m3_cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 55%;
+    height: 60vh;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+}
+
+.logo img {
+    height: 20vh;
+    width: 20vh;
+    margin-left: 9%;
+    margin-top: 15%;
+}
+
+.important_text {
+    color: white;
+    margin-left: 20%;
+    width: fit-content;
+}
+
+.important_text h4 {
+    font-size: 1.5rem;
+}
+
+.important_text h2 {
+    font-size: 3rem;
+    margin-bottom: 15%;
+    margin-top: 5%;
+}
+
+.container2 {
+    display: flex;
+    width: 100%;
+}
+
+.main_content2 {
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+    background-image: url(../images/other/background_left.jpg);
+}
+.main_content2 p{
+    word-spacing: 0.3rem;
+    font-size: 3rem;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+.main_content2 button{
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.main_content2 button:hover{
+    border-color: red;
+}
+
+.left_content {
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.left_content img {
+    width: 100%;
+    height: auto;
+}
+.main_content3 {
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+}
+.container3 {
+    display: flex;
+    width: 100%;
+}
+.main_content3 img{
+    width: 100%;
+}
+.left_content2 {
+    max-width: 50%;
+    width: 50%;
+    overflow: hidden;
+    background-image: url(../images/other/background_left.jpg);
+}
+.left_content2 p{
+    word-spacing: 0.3rem;
+    font-size: 3rem;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 80%;
+    margin: 10% 5%;
+}
+.left_content2 button{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.left_content2 button:hover{
+    border-color: red;
+}
+.container4 {
+    display: flex;
+    width: 100%;
+}
+.main_content4 {
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+    background-image: url(../images/other/background_left.jpg);
+}
+.main_content4 p{
+    word-spacing: 0.3rem;
+    font-size: 3rem;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+.main_content4 button{
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.main_content4 button:hover{
+    border-color: red;
+}
+.left_content3{
+    max-width: 50%;
+    width:50%
+}
+.left_content3 img{
+    width: 100%;
+}
+@media (max-width: 1110px) {
+    .main_content3{
+        content: url(../images/other/datsun_vertical.jpg);
+    }
+    .left_content{
+        content: url(../images/other/car_part_vertical.jpeg);
+    }
+}
+

@@ -1,0 +1,130 @@
+body{
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+.upper_header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 0.1% 0;
+}
+.upper_header ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.upper_header ul li{
+    padding-left: 2%;
+}
+.upper_header ul li:first-child{
+    margin-right: 15%;
+    font-size: 1.4rem;
+}
+.upper_header ul li:nth-child(6){
+    margin-left: 15%;
+}
+.upper_header ul li:nth-child(6)::before{
+    content: url(../images/other/compass.svg);
+}
+.upper_header ul li:nth-child(2)::before{
+    content: url(../images/other/watch.svg);
+}
+.lower_header{
+    background-image: url(../images/other/lower_header.jpg);
+    background-position: 50% 53%;
+}
+.lower_header ul{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 1%;
+}
+.lower_header ul li{
+    padding-left: 2%;
+}
+.lower_header ul li:first-child{
+    margin-left: 4%;
+}
+.lower_header ul li:last-of-type{
+    margin-right: 10%;
+    margin-top: 1.5%;
+}
+.lower_header ul li:nth-child(2), .lower_header ul li:nth-child(3), .lower_header ul li:nth-child(4), .lower_header ul li:nth-child(5), .lower_header ul li:nth-child(6), .lower_header ul li:nth-child(7){
+    margin-top: 2.2%;
+}
+
+.underline-animation {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: red;
+        transition: width 0.3s ease-in-out;
+        }
+
+    &:hover {
+        color: blue;
+        &::before {
+          width: 100%;
+        }
+      }
+}
+.upper_color_change{
+    color: white;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+        color: blue;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .upper_header ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .upper_header ul li {
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    .upper_header ul li:first-child {
+        margin-right: 0;
+    }
+
+    .upper_header ul li:nth-child(6) {
+        margin-left: 0;
+    }
+    .upper_header ul li:nth-child(3), .upper_header ul li:nth-child(4), .upper_header ul li:nth-child(5), .upper_header ul li:nth-child(7){
+        display: none;
+    }
+    .lower_header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lower_header li:last-child{
+        margin-left: 10%;
+    }
+    .lower_header li:nth-child(8){
+        display: none;
+    }
+
+
+}

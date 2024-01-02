@@ -1,0 +1,93 @@
+.nav_bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    color: white;
+}
+body{
+    background-image: url(../images/other/background_shop_car.jpg);
+    background-attachment: fixed;
+}
+.search{
+    width: 50%;
+}
+.search input{
+    margin-left: 1%;
+    height: 100%;
+    width: 30%
+}
+.search label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 30%;
+}
+.filter{
+    width: 50%;
+}
+.filter select{
+    margin-left: 1%;
+    height: 100%;
+    width: 30%
+}
+.filter label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 30%;
+}
+h2{
+    margin: 0;
+}
+.explaine{
+    text-align: center;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1%;
+}
+.products_grid  li a button{
+    font-size: 0.8rem;
+    padding: 1% 2%;
+}
+.products_grid  li a button:hover{
+    border-color: red;
+}
+.car_selection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+}
+.products_grid  li{
+    margin-bottom: 10%;
+    background-image: url(../images/other/background_left.jpg);
+    background-size: 50%;
+    
+}
+.products_grid  li a:nth-child(2){
+    text-align: center;
+}
+.products_grid  li a:nth-child(3){
+    margin: auto 35%;
+}
+.products_grid li p{
+    color: black;
+}
+img{
+    height: 274px;
+    width: 370px;
+    transition: transform 0.3s ease-in-out;    
+}
+img:hover{
+    transform: scale(1.1);
+}
+@media (max-width: 600px) {
+    .search input{
+        margin-left: 1%;
+        height: 100%;
+        width: 20%
+    }
+}
