@@ -1,0 +1,76 @@
+body{
+    background-image: url(../images/other/background_shop_car.jpg);
+    background-attachment: fixed;
+}
+img{
+    height: 250px;
+    width: 370px;
+    transition: transform 0.3s ease-in-out;    
+}
+.explaine{
+    text-align: center;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1%;
+}
+p{
+    font-size: 1.3rem;
+}
+.car_selection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+}
+.products_grid  li{
+    margin-bottom: 10%;   
+}
+.explaine ul li{
+    margin-bottom: 1%;
+}
+.explaine ul li:first-of-type::before{
+    content: url(../images/other/speedometer2.svg);
+    margin-right: 1%;
+}
+.explaine ul li:nth-child(2)::before{
+    content: url(../images/other/calendar-check.svg);
+    margin-right: 1%;
+}
+.explaine ul li:nth-child(3)::before{
+    content: url(../images/other/123.svg);
+    margin-right: 1%;
+}
+.explaine ul li:nth-child(4)::before{
+    content: url(../images/other/fuel-pump.svg);
+    margin-right: 1%;
+}
+.explaine ul li:nth-child(5)::before{
+    content: url(../images/other/geo-fill.svg);
+    margin-right: 1%;
+}
+.user_input{
+    text-align: center;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    flex-wrap: wrap;
+   
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+input{
+    height: 1.7rem;
+}
+select{
+    height: 1.7rem;
+}
