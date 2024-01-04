@@ -1,0 +1,10 @@
+body{
+    background-image: url(../images/other/background_shop_car.jpg);
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+div{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2%;
+}

@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/other/background_shop_car.jpg);
+    background-image: url(../images/other/background_for_car_page.jpg);
     background-attachment: fixed;
 }
 img{
@@ -13,6 +13,15 @@ img{
     background: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 1%;
+}
+i{
+    color: white;
+    transition-property: color;
+    transition-duration: 0.4s;
+    transform-style: ease-in-out;
+}
+i:hover{
+    color: blue;
 }
 p{
     font-size: 1.3rem;
@@ -73,4 +82,20 @@ input{
 }
 select{
     height: 1.7rem;
+}
+.gdpr label{
+    font-size: 50%;
+    word-spacing: 0.01rem;
+}
+.gdpr input{
+    margin: 0;
+    height: 1rem;
+}
+.newsletter label{
+    font-size: 50%;
+    word-spacing: 0.01rem;
+}
+.newsletter input{
+    margin: 0;
+    height: 1rem;
 }

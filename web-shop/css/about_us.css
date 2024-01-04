@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/other/background_left.jpg);
+    background-attachment: fixed;
+}
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    background-image: url(../images/other/banner_about_us.jpg);
+    color: white;
+    height: 70vh;
+}
+.banner h2{
+    font-size: 4rem;
+}
+.about{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.map{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+} 
+.map iframe{
+    border: solid 2px;
+    border-color: red;
+    width: 100%;
+}
+dt{
+    float: left;
+    width: 50%;
+    margin-bottom: 1%;
+}
+dd{
+    margin-bottom: 1%;
+}
+dt:nth-child(odd) {
+    clear: both;
+}
+li{
+    margin-bottom: 10%;
+}
