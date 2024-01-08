@@ -1,0 +1,65 @@
+body{
+    background-image: url(../images/other/background_for_car_page.jpg);
+    background-attachment: fixed;
+}
+.explaine{
+    text-align: center;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1%;
+}
+aside{
+    float: right;
+}
+.explaine{
+    text-align: center;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1%;
+}
+.products_grid  li a button{
+    font-size: 0.8rem;
+    padding: 1% 2%;
+}
+.products_grid  li a button:hover{
+    border-color: red;
+}
+.car_selection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+}
+.products_grid  li{
+    margin-bottom: 10%;
+    background-image: url(../images/other/background_left.jpg);
+    background-size: 50%;
+    
+}
+.products_grid  li a:nth-child(2){
+    text-align: center;
+}
+.products_grid  li a:nth-child(3){
+    margin: auto 35%;
+}
+.products_grid li p{
+    color: black;
+}
+img{
+    height: 250px;
+    width: 370px;
+    transition: transform 0.3s ease-in-out;    
+}
+img:hover{
+    transform: scale(1.1);
+}
+@media (max-width: 600px) {
+    .search input{
+        margin-left: 1%;
+        height: 100%;
+        width: 20%
+    }
+}

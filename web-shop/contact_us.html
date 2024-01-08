@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../web-shop/css/style.css" as="style">
+    <link rel="stylesheet" href="../web-shop/css/contact_us.css" as="style">
+    <script src="../web-shop/js/javascript.js" defer></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <iframe src="../web-shop/partials/header.html" width="100%" class="auto-height-iframe"></iframe>
+    </header>
+    <main>
+        <div class="opacity">
+            <div class="banner">
+                <h2>Get in touch for test drives and general inqury!</h2>
+            </div>
+        </div>
+        <section class="contact">
+            <form action="../web-shop/thank_you.html">
+                <label for="fname">Full Name</label>
+                <input type="text" placeholder="Full Name" id="fname" name="fname" required>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" id="email" name="email" required>
+                <label for="phone">Phone Number</label>
+                <input type="tel" placeholder="Tel. Number" id="phone" name="phone" required>
+                <label for="age">Enter your age</label>
+                <input type="number" name="age" id="age" min="18" max="99" pattern="\d{1,2}" placeholder="Emter age">
+                <label for="country">Please Select Country</label>
+                <select id="country" name="county" id="country" required>
+                    <option value="austria">Austria</option>
+                    <option value="belgium">Belgium</option>
+                    <option value="bulgaria">Bulgaria</option>
+                    <option value="croatia">Croatia</option>
+                    <option value="cyprus">Cyprus</option>
+                    <option value="czechRepublic">Czech Republic</option>
+                    <option value="denmark">Denmark</option>
+                    <option value="estonia">Estonia</option>
+                    <option value="finland">Finland</option>
+                    <option value="france">France</option>
+                    <option value="germany">Germany</option>
+                    <option value="greece">Greece</option>
+                    <option value="hungary">Hungary</option>
+                    <option value="ireland">Ireland</option>
+                    <option value="italy">Italy</option>
+                    <option value="latvia">Latvia</option>
+                    <option value="lithuania">Lithuania</option>
+                    <option value="luxembourg">Luxembourg</option>
+                    <option value="malta">Malta</option>
+                    <option value="netherlands">Netherlands</option>
+                    <option value="poland">Poland</option>
+                    <option value="portugal">Portugal</option>
+                    <option value="romania">Romania</option>
+                    <option value="slovakia">Slovakia</option>
+                    <option value="slovenia">Slovenia</option>
+                    <option value="spain">Spain</option>
+                    <option value="sweden">Sweden</option>
+                </select>
+                <label for="message">Ask away or tell us which car you like</label>
+                <textarea id="message" name="message" rows="15" required></textarea>
+                <div class="gdpr">
+                    <input type="checkbox" name="permission" id="permission" required>
+                    <label for="permission">
+                        I consent to data collection and data storage.
+                    </label>
+                </div>
+                <div class="newsletter">
+                    <input type="checkbox" name="news" id="news" required>
+                    <label for="news">
+                        Subscribe to Newslwtter!
+                    </label>
+                    <div class="drive">
+                        <input type="checkbox" name="drive" id="drive">
+                        <label for="news">
+                            Would you like a test drive?
+                        </label>
+                </div>
+                <button type="submit">Submit!</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <iframe src="../web-shop/partials/footer.html" width="100%" class="auto-height-iframe"></iframe>
+    </footer>
+</body>
+</html>

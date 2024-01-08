@@ -1,0 +1,48 @@
+body{
+    background-image: url(../images/other/background_left.jpg);
+}
+.banner{
+    background-image: url(../images/other/background_for_car_page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 2rem;
+}
+.contact{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+select, textarea, input{
+    margin-bottom: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+select, #fname, #email, #phone, #age{
+    height: 5vh;
+}
+select:hover, textarea:hover, input:hover{
+    box-shadow: 5px 5px 10px rgba(26, 2, 247, 0.3);;
+}
+label{
+    font-size: 1.3rem;
+}
+@media screen and (max-width: 1000px) {
+    .newsletter label, .gdpr label, .drive label{
+        font-size: 2vw;
+    }
+}
