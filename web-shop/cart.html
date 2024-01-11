@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../web-shop/css/style.css" as="style">
+    <link rel="stylesheet" href="../web-shop/css/cart.css" as="style">
+    <script src="../web-shop/js/javascript.js" defer></script>
+    <script src="../web-shop/js/print.js" defer></script>
+    <title>My Items</title>
+</head>
+<body>
+    <header>
+        <iframe src="../web-shop/partials/header.html" width="100%" class="auto-height-iframe"></iframe>
+    </header>
+    <div class="banner">
+        <h2>Checkout</h2>
+    </div>
+    <section class="items">
+        <h3>Your items</h3>
+        <div class="item1">
+            <p>ADVAN Rallye ART14-1 5.5×14 wheels</p>
+            <p>€ 499</p>
+        </div>
+        <div class="item2">
+            <p>Aftermarket front bumper Mazda RX-7 FD3S</p>
+            <p>€ 599</p>
+        </div>
+        <div class="item3">
+            <p>BBS RI-A 12×18 Centerlock racing wheels</p>
+            <p>€ 999</p>
+        </div>
+        <div class="total">
+            <p>Total</p>
+            <p>€ 2097</p>
+        </div>
+    </section>
+    <div class="button">
+        <button onclick="printItems()">Print Receipt</button>
+    </div>
+    <section class="contact">
+        <form action="../web-shop/thank_you.html">
+            <label for="fname">Full Name</label>
+            <input type="text" placeholder="Full Name" id="fname" name="fname" required>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email" id="email" name="email" required>
+            <label for="phone">Phone Number</label>
+            <input type="tel" placeholder="Tel. Number" id="phone" name="phone" required>
+            <label for="country">Please Select Country</label>
+            <select id="country" name="county" id="country" required>
+                <option value="austria">Austria</option>
+                <option value="belgium">Belgium</option>
+                <option value="bulgaria">Bulgaria</option>
+                <option value="croatia">Croatia</option>
+                <option value="cyprus">Cyprus</option>
+                <option value="czechRepublic">Czech Republic</option>
+                <option value="denmark">Denmark</option>
+                <option value="estonia">Estonia</option>
+                <option value="finland">Finland</option>
+                <option value="france">France</option>
+                <option value="germany">Germany</option>
+                <option value="greece">Greece</option>
+                <option value="hungary">Hungary</option>
+                <option value="ireland">Ireland</option>
+                <option value="italy">Italy</option>
+                <option value="latvia">Latvia</option>
+                <option value="lithuania">Lithuania</option>
+                <option value="luxembourg">Luxembourg</option>
+                <option value="malta">Malta</option>
+                <option value="netherlands">Netherlands</option>
+                <option value="poland">Poland</option>
+                <option value="portugal">Portugal</option>
+                <option value="romania">Romania</option>
+                <option value="slovakia">Slovakia</option>
+                <option value="slovenia">Slovenia</option>
+                <option value="spain">Spain</option>
+                <option value="sweden">Sweden</option>
+            </select>
+            <label for="adress">Home adress</label>
+            <input type="adress" name="adress" id="adress" placeholder="Enter Home adress" required>
+            <label for="card">Enter your card details</label>
+            <input type="text" id="card" name="card" placeholder="xxxxxxxxxxxxxxx" required>
+            <div class="credit">
+                <label for="type_card">Visa</label>
+                <input type="radio" id="type_card" name="type_card" value="visa">
+                <label for="type_card">Master Card</label>
+                <input type="radio" id="type_card" name="type_card" value="master">
+                <label for="type_card">Discovery</label>
+                <input type="radio" id="type_card" name="type_card" value="discovery">
+            </div>
+            <label for="message">Additional remarks</label>
+            <textarea id="message" name="message" rows="8" required></textarea>
+            <div class="gdpr">
+                <input type="checkbox" name="permission" id="permission" pattern="[0-9]*" inputmode="numeric" required>
+                <label for="permission">
+                    I consent to data collection and data storage.
+                </label>
+            </div>
+            <div class="newsletter">
+                <input type="checkbox" name="news" id="news" required>
+                <label for="news">
+                    Subscribe to Newslwtter!
+                </label>
+            </div>
+            <div class="submit">
+                <button type="submit">Submit order!</button>
+                <button type="reset">Reset form</button>
+            </div>
+        </form>
+</body>
+</html>

@@ -122,6 +122,7 @@ img:hover{
 }
 .item-list{
     width: 80%;
+    margin-left: 8%;
 }
 input{
     margin-bottom: 8%;
