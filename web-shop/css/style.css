@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Monty';
+    src: url(../font/Montserrat-Regular.ttf) format(tff),
+    /* Add additional formats if needed */
+}
+
 .auto-height-iframe{
     border: none;
     width: 100%;
@@ -6,6 +12,7 @@
 body{
     margin: 0 auto;
     height: 100%;
+    font-family: 'Monty', sans-serif;
 }
 button{
     background-color: black;
