@@ -11,25 +11,39 @@ main {
 }
 
 .container1 {
-    background-image: url(../images/other/bmw_m3_cover.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 55%;
     height: 60vh;
     display: flex;
-    align-items: center; /* Vertically center the content */
+    position: relative;
+}
+
+.main_content{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+video{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.video_overlay {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 100%;
 }
 
 .logo img {
     height: 20vh;
     width: 20vh;
-    margin-left: 9%;
+    margin-left: 1%;
     margin-top: 15%;
 }
 
 .important_text {
     color: white;
-    margin-left: 20%;
     width: fit-content;
 }
 
