@@ -98,3 +98,7 @@ label{
     height: fit-content;
     width: fit-content;
 }
+
+.error-message{
+    color: red;
+}
