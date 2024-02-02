@@ -24,7 +24,7 @@
                 Under the hood, the BMW M5 E34 is propelled by a high-performance inline-six or V8 engine, delivering a perfect synthesis of power and precision. Renowned for its sophisticated engineering, the E34 M5 engine ensures a thrilling driving experience with robust acceleration and a harmonious balance between sportiness and refinement.
             </p>
             <ul>
-                <li>
+                <li id="count">
                     Mileage: 170000km
                 </li>
                 <li>
@@ -43,37 +43,40 @@
         </section>
         <section class="car_selection">
             <ul class="products_grid">
-                <li class="first_item">
+                <li class="first_item wow slideInLeft">
                         <img src="../images/products/bmw_m5.jpg" alt="BMW M5" title="BMW M5 E34">
                 </li>
-                <li class="item">
+                <li class="item wow slideInLeft">
                         <img src="../images/products/bmw_m5 1.jpg" alt="BMW M5" title="BMW M5 E34">
                 </li>
-                <li class="last_item">
+                <li class="last_item wow slideInLeft">
                         <img src="../images/products/bmw_m5 2.jpg" alt="BMW M5" title="BMW M5 E34">
                 </li>
             </ul>
             <ul class="products_grid">
-                <li class="first_item">
+                <li class="first_item wow slideInRight">
                         <img src="../images/products/bmw_m5 3.jpg" alt="BMW M5" title="BMW M5 E34">
                 </li>
-                <li class="item">
+                <li class="item wow slideInRight">
                         <img src="../images/products/bmw_m5 4.jpg" alt="BMW M5" title="BMW M5 E34">
                 </li>
-                <li class="last_item">
+                <li class="last_item wow slideInRight">
                         <img src="../images/products/bmw_m5 5.jpg" alt="BMW M5" title="BMW M5 E34">
                 </li>
             </ul>
         </section>
         <section class="user_input">
-            <form action="../thank_you.html">
+            <form action="../thank_you.html" onsubmit="validateForm(event)" id="myForm">
                 <h2>Contact us <br>  for more information</h2>
                 <label for="fname">Full Name</label>
-                <input type="text" placeholder="Full Name" id="fname" name="fname" required>
+                <input type="text" placeholder="Full Name" id="fname" name="fname" required pattern="[a-zA-Z]+\s[a-zA-Z]+">
+                <span id="fnameError" class="error-message"></span>
                 <label for="email">Email</label>
                 <input type="email" placeholder="Email" id="email" name="email" required>
+                <span id="emailError" class="error-message"></span>
                 <label for="phone">Phone Number</label>
                 <input type="tel" placeholder="Tel. Number" id="phone" name="phone" required>
+                <span id="phoneError" class="error-message"></span>
                 <label for="country">Please Select Country</label>
                 <select id="country" name="county" id="country" required>
                     <option value="austria">Austria</option>
@@ -125,5 +128,9 @@
     <footer>
         <iframe src="../partials/footer.html" width="100%" class="auto-height-iframe"></iframe>
     </footer>
+    <script src="../js/partial_validation.js"></script>
+    <link rel="stylesheet" href="../wow.js/css/libs/animate.css">
+    <script src="../wow.js/dist/wow.js"></script>
+    <script src="../js/efect.js"></script>
 </body>
 </html>

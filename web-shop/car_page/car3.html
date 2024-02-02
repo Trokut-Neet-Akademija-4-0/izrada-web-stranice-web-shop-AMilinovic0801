@@ -24,7 +24,7 @@
                 The Mercedes-Benz R129 500SL is propelled by a robust 5.0-liter V8 engine, delivering a potent combination of smooth power delivery and refined performance. Renowned for its effortless acceleration and smooth operation, the engine contributes to the overall luxurious driving experience of the R129 500SL convertible.
             </p>
             <ul>
-                <li>
+                <li id="count">
                     Mileage: 51000km
                 </li>
                 <li>
@@ -43,37 +43,40 @@
         </section>
         <section class="car_selection">
             <ul class="products_grid">
-                <li class="first_item">
+                <li class="first_item wow slideInLeft">
                         <img src="../images/products/mercedes_sl.jpg" alt="Hakosuka" title="Mercedes-Benz R219 500SL">
                 </li>
-                <li class="item">
+                <li class="item wow slideInLeft">
                         <img src="../images/products/mercedes_sl 1.jpg" alt="Hakosuka" title="Mercedes-Benz R219 500SL">
                 </li>
-                <li class="last_item">
+                <li class="last_item wow slideInLeft">
                         <img src="../images/products/mercedes_sl 2.jpg" alt="Hakosuka" title="Mercedes-Benz R219 500SL">
                 </li>
             </ul>
             <ul class="products_grid">
-                <li class="first_item">
+                <li class="first_item wow slideInRight">
                         <img src="../images/products/mercedes_sl 3.jpg" alt="Hakosuka" title="Mercedes-Benz R219 500SL">
                 </li>
-                <li class="item">
+                <li class="item wow slideInRight">
                         <img src="../images/products/mercedes_sl 4.jpg" alt="Hakosuka" title="Mercedes-Benz R219 500SL">
                 </li>
-                <li class="last_item">
+                <li class="last_item wow slideInRight">
                         <img src="../images/products/mercedes_sl 5.jpg" alt="Hakosuka" title="Mercedes-Benz R219 500SL">
                 </li>
             </ul>
         </section>
         <section class="user_input">
-            <form action="../thank_you.html">
+            <form action="../thank_you.html" onsubmit="validateForm(event)" id="myForm">
                 <h2>Contact us <br>  for more information</h2>
                 <label for="fname">Full Name</label>
-                <input type="text" placeholder="Full Name" id="fname" name="fname" required>
+                <input type="text" placeholder="Full Name" id="fname" name="fname" required pattern="[a-zA-Z]+\s[a-zA-Z]+">
+                <span id="fnameError" class="error-message"></span>
                 <label for="email">Email</label>
                 <input type="email" placeholder="Email" id="email" name="email" required>
+                <span id="emailError" class="error-message"></span>
                 <label for="phone">Phone Number</label>
                 <input type="tel" placeholder="Tel. Number" id="phone" name="phone" required>
+                <span id="phoneError" class="error-message"></span>
                 <label for="country">Please Select Country</label>
                 <select id="country" name="county" id="country" required>
                     <option value="austria">Austria</option>
@@ -125,5 +128,9 @@
     <footer>
         <iframe src="../partials/footer.html" width="100%" class="auto-height-iframe"></iframe>
     </footer>
+    <script src="../js/partial_validation.js"></script>
+    <link rel="stylesheet" href="../wow.js/css/libs/animate.css">
+    <script src="../wow.js/dist/wow.js"></script>
+    <script src="../js/efect.js"></script>
 </body>
 </html>

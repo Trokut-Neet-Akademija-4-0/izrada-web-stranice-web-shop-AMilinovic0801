@@ -25,7 +25,7 @@
                 Powered by a high-revving 2.3-liter four-cylinder engine, known for its remarkable performance and responsiveness. With its motorsport-inspired design, the S14 engine in the E30 M3 delivers a perfect balance of power and precision, contributing to the car's legendary status in the automotive world.
             </p>
             <ul>
-                <li>
+                <li id="count">
                     Mileage: 86000km
                 </li>
                 <li>
@@ -44,37 +44,40 @@
         </section>
         <section class="car_selection">
             <ul class="products_grid">
-                <li class="first_item">
+                <li class="first_item wow slideInLeft">
                         <img src="../images/products/bmw_e30_m3.jpg" alt="Hakosuka" title="BMW E30 M3">
                 </li>
-                <li class="item">
+                <li class="item wow slideInLeft">
                         <img src="../images/products/bmw_e30_m3 1.jpg" alt="Hakosuka" title="BMW E30 M3">
                 </li>
-                <li class="last_item">
+                <li class="last_item wow slideInLeft">
                         <img src="../images/products/bmw_e30_m3 2.jpg" alt="Hakosuka" title="BMW E30 M3">
                 </li>
             </ul>
             <ul class="products_grid">
-                <li class="first_item">
+                <li class="first_item wow slideInRight">
                         <img src="../images/products/bmw_e30_m3 3.jpg" alt="Hakosuka" title="BMW E30 M3">
                 </li>
-                <li class="item">
+                <li class="item wow slideInRight">
                         <img src="../images/products/bmw_e30_m3 4.jpg" alt="Hakosuka" title="BMW E30 M3">
                 </li>
-                <li class="last_item">
+                <li class="last_item wow slideInRight">
                         <img src="../images/products/bmw_e30_m3 5.jpg" alt="Hakosuka" title="BMW E30 M3">
                 </li>
             </ul>
         </section>
         <section class="user_input">
-            <form action="../thank_you.html">
+            <form action="../thank_you.html" onsubmit="validateForm(event)" id="myForm">
                 <h2>Contact us <br>  for more information</h2>
                 <label for="fname">Full Name</label>
-                <input type="text" placeholder="Full Name" id="fname" name="fname" required>
+                <input type="text" placeholder="Full Name" id="fname" name="fname" required pattern="[a-zA-Z]+\s[a-zA-Z]+">
+                <span id="fnameError" class="error-message"></span>
                 <label for="email">Email</label>
                 <input type="email" placeholder="Email" id="email" name="email" required>
+                <span id="emailError" class="error-message"></span>
                 <label for="phone">Phone Number</label>
                 <input type="tel" placeholder="Tel. Number" id="phone" name="phone" required>
+                <span id="phoneError" class="error-message"></span>
                 <label for="country">Please Select Country</label>
                 <select id="country" name="county" id="country" required>
                     <option value="austria">Austria</option>
@@ -126,5 +129,9 @@
     <footer>
         <iframe src="../partials/footer.html" width="100%" class="auto-height-iframe"></iframe>
     </footer>
+    <script src="../js/partial_validation.js"></script>
+    <link rel="stylesheet" href="../wow.js/css/libs/animate.css">
+    <script src="../wow.js/dist/wow.js"></script>
+    <script src="../js/efect.js"></script>
 </body>
 </html>

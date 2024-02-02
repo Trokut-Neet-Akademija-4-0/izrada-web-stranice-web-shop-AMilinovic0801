@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/car_detail_page.css" as="style">
     <script src="../js/javascript.js" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+
     <title>Nissan Skyline Hakosuka KGC10</title>
 </head>
 <body>
@@ -24,8 +25,8 @@
                 Under the bonnet sits a naturally aspirated 2.0-litre ‘L20’ inline-six, which sends power to the rear wheels via a five-speed manual transmission.
             </p>
             <ul>
-                <li>
-                    Mileage: 36,904km
+                <li class="counter">
+                    Mileage: 36,904 km 
                 </li>
                 <li>
                     Year: 5/1971
@@ -42,38 +43,41 @@
             </ul>
         </section>
         <section class="car_selection">
-            <ul class="products_grid">
+            <ul class="products_grid wow slideInLeft">
                 <li class="first_item">
                         <img src="../images/products/skyline-hakosuka-sale.jpg" alt="Hakosuka" title="Nissan GTR-Hakosuka">
                 </li>
-                <li class="item">
+                <li class="item wow slideInLeft">
                         <img src="../images/products/skyline-hakosuka-sale (1).jpg" alt="Hakosuka" title="Nissan GTR-Hakosuka">
                 </li>
-                <li class="last_item">
+                <li class="last_item wow slideInLeft">
                         <img src="../images/products/skyline-hakosuka-sale (2).jpg" alt="Hakosuka" title="Nissan GTR-Hakosuka">
                 </li>
             </ul>
             <ul class="products_grid">
-                <li class="first_item">
+                <li class="first_item wow slideInRight">
                         <img src="../images/products/skyline-hakosuka-sale (3).jpg" alt="Hakosuka" title="Nissan GTR-Hakosuka">
                 </li>
-                <li class="item">
+                <li class="item wow slideInRight">
                         <img src="../images/products/skyline-hakosuka-sale (4).jpg" alt="Hakosuka" title="Nissan GTR-Hakosuka">
                 </li>
-                <li class="last_item">
+                <li class="last_item wow slideInRight">
                         <img src="../images/products/skyline-hakosuka-sale (5).jpg" alt="Hakosuka" title="Nissan GTR-Hakosuka">
                 </li>
             </ul>
         </section>
         <section class="user_input">
-            <form action="../thank_you.html">
+            <form action="../thank_you.html" onsubmit="validateForm(event)" id="myForm">
                 <h2>Contact us <br>  for more information</h2>
                 <label for="fname">Full Name</label>
-                <input type="text" placeholder="Full Name" id="fname" name="fname" required>
+                <input type="text" placeholder="Full Name" id="fname" name="fname" required pattern="[a-zA-Z]+\s[a-zA-Z]+">
+                <span id="fnameError" class="error-message"></span>
                 <label for="email">Email</label>
                 <input type="email" placeholder="Email" id="email" name="email" required>
+                <span id="emailError" class="error-message"></span>
                 <label for="phone">Phone Number</label>
                 <input type="tel" placeholder="Tel. Number" id="phone" name="phone" required>
+                <span id="phoneError" class="error-message"></span>
                 <label for="country">Please Select Country</label>
                 <select id="country" name="county" id="country" required>
                     <option value="austria">Austria</option>
@@ -125,5 +129,9 @@
     <footer>
         <iframe src="../partials/footer.html" width="100%" class="auto-height-iframe"></iframe>
     </footer>
+    <script src="../js/partial_validation.js"></script>
+    <link rel="stylesheet" href="../wow.js/css/libs/animate.css">
+    <script src="../wow.js/dist/wow.js"></script>
+    <script src="../js/efect.js"></script>
 </body>
 </html>
