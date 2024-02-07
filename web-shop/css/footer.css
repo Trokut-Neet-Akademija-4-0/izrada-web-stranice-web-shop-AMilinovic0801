@@ -1,16 +1,21 @@
-body{
+/*body{
     background-color: black;
     color: white;
     margin: 0;
     padding: 0;
     overflow: visible !important;
-}
-object{
+}*/
+.conainer_footer{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: visible !important;
     display: flex;
     justify-content: space-between;
     align-content: center;
 }
-ul{
+.list_class{
     list-style: none;
     padding: 0;
 }
@@ -18,8 +23,8 @@ a{
     text-decoration: none;
     color: white;
 }
-h2{
-    font-size: 2rem;
+.footer_h2{
+    font-size: 1.5rem;
     height: 10%;
 }
 .left_footer{
@@ -133,7 +138,7 @@ button:hover{
     }
 }
 @media screen and (max-width: 900px){
-    object{
+    .conainer_footer{
         flex-direction: column;
         text-align: center;
     }
