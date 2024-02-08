@@ -99,3 +99,9 @@ select{
     margin: 0;
     height: 1rem;
 }
+
+@media (max-width: 600px){
+    .products_grid{
+        padding: 0;
+    }
+}

@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="../web-shop/css/about_us.css" as="style">
     <script src="/web-shop/js/fetch_header.js"></script>
     <script src="/web-shop/js/fetch_footer.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous">
+    </script>
     <title>About us & Location</title>
 </head>
 <body>
@@ -82,5 +87,16 @@
     <link rel="stylesheet" href="./wow.js/css/libs/animate.css">
     <script src="./wow.js/dist/wow.js"></script>
     <script src="./js/efect.js"></script>
+    <script>
+       setTimeout(function() {
+            // Hamburger icon click event
+            console.log('prvaprovjera');
+            $("#hamburger").click(function() {
+                console.log('drugaprovjera');
+                // Toggle the visibility of the navigation menu
+                $("#nav-menu").slideToggle();
+            });
+        }, 800);
+    </script>
 </body>
 </html>

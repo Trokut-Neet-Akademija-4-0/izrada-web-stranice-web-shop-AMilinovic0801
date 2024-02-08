@@ -1,3 +1,8 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "blink",
+    "editor.cursorSmoothCaretAnimation": "on"
 }

@@ -67,7 +67,10 @@ img{
     .faq_left, .faq_right {
         width: 80%;
     }
-}
-iframe{
-    border: none;
+    .first_img{
+        align-self: center;
+    }
+    .last_img{
+        align-self: center;
+    }
 }

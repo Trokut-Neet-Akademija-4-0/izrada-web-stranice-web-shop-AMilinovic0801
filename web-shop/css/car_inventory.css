@@ -89,4 +89,10 @@ img:hover{
         height: 100%;
         width: 20%
     }
+    .search label{
+        margin: 0;
+    }
+    .products_grid{
+        padding: 0;
+    }
 }

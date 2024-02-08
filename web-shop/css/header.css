@@ -132,6 +132,7 @@ ul{
 
     .lower_header{
         display: none;
+        padding: 0;
     }
     .lower_header ul {
         display: flex;
@@ -156,9 +157,9 @@ ul{
       
       #nav-menu {
         display: none; 
-        padding: 20px;
+        padding: 0;
         background-color: #f1f1f1;
-        position: fixed; /* Fix the position of the navigation menu */
+
         left: 0; /* Position it at the left edge of the viewport */
         width: 100%; /* Occupy the full width of the viewport */
         height: fit-content;
@@ -171,8 +172,13 @@ ul{
       }
   
       #nav-menu li {
+        margin-left: 0;
         margin-bottom: 10px;
+        padding: 0;
       }
 
+      .shop_cart{
+        margin-left: 39%;
+      }
 
 }

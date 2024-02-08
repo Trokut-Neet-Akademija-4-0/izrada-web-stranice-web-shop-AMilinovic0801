@@ -87,6 +87,10 @@ label{
     .newsletter label, .gdpr label, .drive label{
         font-size: 2vw;
     }
+
+    .comment1, .comment2, .comment3, .comment4{
+        width: 90%;
+    }
 }
 .extra{
     display: flex;
