@@ -21,7 +21,7 @@ function validateForm(event){
         fnameError.textContent = '';
     };
 
-    if(!emailPattern.test(emailInput.value)){  //robustnije rjesenje za provjeru emaila, kad sam stavio pattern u HTML user nij ebio primoren staviti .com
+    if(!emailPattern.test(emailInput.value)){  //robustnije rjesenje za provjeru emaila, kad sam stavio pattern u HTML user nije bio primoren staviti .com
         emailError.textContent = 'Enter the correct Email!'
     } else {
         emailError.textContent = '';

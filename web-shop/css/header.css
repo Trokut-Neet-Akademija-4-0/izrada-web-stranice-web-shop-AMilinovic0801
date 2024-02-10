@@ -7,12 +7,12 @@
     display: none;
 }
 .logo_jpn{
-    height: 10vh;
-    width: 10vh;
+    height: 100px;
+    width: 100px;
 }
 .shop_cart, .key_jpn{
-    height: 6vh;
-    width: 6vh;
+    height: 50px;
+    width: 50px;
 }
 a{
     text-decoration: none;
@@ -26,7 +26,7 @@ ul{
     background-color: black;
     color: white;
     padding: 0.1% 0;
-    height: 7vh;
+    height: 80px;
 }
 .upper_header ul{
     display: flex;
@@ -52,7 +52,7 @@ ul{
 .lower_header{
     background-image: url(../images/other/lower_header.jpg);
     background-position: 50% 53%;
-    height: 20vh;
+    height: 150px;
 }
 .lower_header ul{
     margin-top: 0;
@@ -109,7 +109,7 @@ ul{
 }
 @media screen and (max-width: 1200px){
     .upper_header{
-        height: 10vh;
+        display: none;
     }
     .lower_header figcaption{
         display: none;
@@ -121,11 +121,15 @@ ul{
         display: none;
     }
     .lower_header{
-        height: 15vh;
+        height: 100px;
+    }
+    .logo_jpn{
+        height: 70px;
+        width: 70px;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .upper_header{
         display: none;
     }
@@ -176,9 +180,10 @@ ul{
         margin-bottom: 10px;
         padding: 0;
       }
-
       .shop_cart{
-        margin-left: 39%;
+        margin: 0 50%;
+        height: 50px;
+        width: 50px;
       }
 
 }
