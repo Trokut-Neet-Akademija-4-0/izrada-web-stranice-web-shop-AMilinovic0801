@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/other/background_left.jpg);
+    background-attachment: fixed;
+}
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    background-image: url(../images/other/blog_banner.jpg);
+    background-position: bottom;
+    color: white;
+    height: 70vh;
+}
+.content_container{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    font-size: 2rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width: 100%;
+}
+.logo img{
+    height: auto;
+    width: 60vW;
+}
+.faq_left{
+    width: 30%;
+    margin: 5%;
+    font-size: larger;
+}
+.faq_right{
+    width: 30%;
+    margin: 5%;
+    font-size: larger;
+}
+h2{
+    font-size: 4rem;
+}
+.before{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+#part_list{
+    justify-content: center;
+    align-self: center;
+}
+.parts_button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 20vh;
+}
+.cart_button{
+    height: 100%;
+    padding: 50px;
+}
+.bi{
+    font-size: 2rem;
+}
+i{
+    color: white;
+    transition-property: color;
+    transition-duration: 0.4s;
+    transform-style: ease-in-out;
+}
+i:hover{
+    color: blue;
+}
+@media screen and (max-width: 1000px) {
+    .content_container {
+        flex-direction: column;
+    }
+
+    .faq_left, .faq_right {
+        width: 80%;
+    }
+    .first_img{
+        align-self: center;
+    }
+    .last_img{
+        align-self: center;
+    }
+}
