@@ -13,59 +13,50 @@
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
     crossorigin="anonymous">
     </script>
-    <title>Nissan Skyline Hakosuka KGC10</title>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <title id="title"></title>
 </head>
 <body>
     <header id="nav"></header>
     <main>
         <section class="explaine">
-            <h2><a href="../car_inventory.html"><i class="bi bi-arrow-left-circle-fill" title="Back to car selection"></i></a> Nissan Skyline Hakosuka KGC10</h2>
+            <a href="../car_inventory.html"><i class="bi bi-arrow-left-circle-fill" title="Back to car selection"></i></a> 
+            <h2 id="h2-title"></h2>
             <h4>Key facts</h4>
-            <p>
-                This Nissan Skyline 2000GT is a smart and very usable example of the stylish Japanese classic, which has been transformed with a number of tasteful cosmetic upgrades into a faithful tribute to the legendary ‘Hakosuka’ GT-R model.  
-            </p>
-            <p>
-                Under the bonnet sits a naturally aspirated 2.0-litre ‘L20’ inline-six, which sends power to the rear wheels via a five-speed manual transmission.
-            </p>
+            <p id="text-car"></p>
             <ul>
-                <li class="counter">
-                    Mileage: 36,904 km 
-                </li>
-                <li>
-                    Year: 5/1971
-                </li>
-                <li>
-                    Chassis number: KGC10-041530
-                </li>
-                <li>
-                    Fuel: Gasoline
-                </li>
-                <li>
-                    Transmition: M/T
-                </li>
+                <li class="counter" id="counter"></li>
+                <li id="year"></li>
+                <li id="chassis-number"></li>
+                <li id="motor"></li>
+                <li id="trans"></li>
             </ul>
         </section>
         <section class="car_selection">
             <ul class="products_grid wow slideInLeft">
-                <li class="first_item">
-                        <img src="../images/products/skyline-hakosuka-sale.jpg" alt="Hakosuka" title="Nissan GTR-Hakosuka">
+                <li class="first_item" id="first-picture">
+                        <a data-fancybox="gallery" id="car-gallery1"><img id="car-picture1" ></a>
                 </li>
-                <li class="item wow slideInLeft">
-                        <img src="../images/products/skyline-hakosuka-sale (1).jpg" alt="Hakosuka" title="Nissan GTR-Hakosuka">
+                <li class="item wow slideInLeft" id="second-picture">
+                        <a data-fancybox="gallery" id="car-gallery2"><img id="car-picture2" ></a>
                 </li>
-                <li class="last_item wow slideInLeft">
-                        <img src="../images/products/skyline-hakosuka-sale (2).jpg" alt="Hakosuka" title="Nissan GTR-Hakosuka">
+                <li class="last_item wow slideInLeft" id="third-picture">
+                        <a data-fancybox="gallery" id="car-gallery3"><img id="car-picture3" ></a>
                 </li>
             </ul>
             <ul class="products_grid">
-                <li class="first_item wow slideInRight">
-                        <img src="../images/products/skyline-hakosuka-sale (3).jpg" alt="Hakosuka" title="Nissan GTR-Hakosuka">
+                <li class="first_item wow slideInRight" id="fourth-picture">
+                        <a data-fancybox="gallery" id="car-gallery4"><img id="car-picture4" ></a>
                 </li>
-                <li class="item wow slideInRight">
-                        <img src="../images/products/skyline-hakosuka-sale (4).jpg" alt="Hakosuka" title="Nissan GTR-Hakosuka">
+                <li class="item wow slideInRight" id="fifth-picture">
+                        <a data-fancybox="gallery" id="car-gallery5"><img id="car-picture5" ></a>
                 </li>
-                <li class="last_item wow slideInRight">
-                        <img src="../images/products/skyline-hakosuka-sale (5).jpg" alt="Hakosuka" title="Nissan GTR-Hakosuka">
+                <li class="last_item wow slideInRight" id="sixth-picture">
+                        <a data-fancybox="gallery" id="car-gallery6"><img id="car-picture6" ></a>
                 </li>
             </ul>
         </section>
@@ -135,5 +126,9 @@
     <script src="../wow.js/dist/wow.js"></script>
     <script src="../js/efect.js"></script>
     <script src="/web-shop/js/header_hamburger.js"></script>
+    <script src="/web-shop/js/cars_description_call.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {});
+    </script>
 </body>
 </html>

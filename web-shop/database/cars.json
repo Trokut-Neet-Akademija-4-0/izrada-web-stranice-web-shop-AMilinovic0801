@@ -1,0 +1,214 @@
+{
+    "cars":[
+        {
+            "title": "Nissan Skyline Hakosuka KGC10",
+            "key_facts": [
+              "This Nissan Skyline 2000GT is a smart and very usable example of the stylish Japanese classic, which has been transformed with a number of tasteful cosmetic upgrades into a faithful tribute to the legendary ‘Hakosuka’ GT-R model.",
+              "Under the bonnet sits a naturally aspirated 2.0-litre ‘L20’ inline-six, which sends power to the rear wheels via a five-speed manual transmission."
+            ],
+            "details": {
+              "Mileage": "36,904 km",
+              "Year": "5/1971",
+              "Chassis_number": "KGC10-041530",
+              "Fuel": "Gasoline",
+              "Transmission": "M/T"
+            },
+            "images": [
+              "../images/products/skyline-hakosuka-sale.jpg",
+              "../images/products/skyline-hakosuka-sale (1).jpg",
+              "../images/products/skyline-hakosuka-sale (2).jpg",
+              "../images/products/skyline-hakosuka-sale (3).jpg",
+              "../images/products/skyline-hakosuka-sale (4).jpg",
+              "../images/products/skyline-hakosuka-sale (5).jpg"
+            ]
+          },
+
+          {
+            "title": "Nissan Skyline Kenmeri",
+            "key_facts": [
+              "The Nissan Skyline Kenmeri, part of the GT-R lineage, is a classic Japanese sports car celebrated for its distinctive design and performance. Introduced in the early 1970s, the Kenmeri Skyline is admired for its sleek coupe silhouette and contribution to the iconic Skyline series' legacy.",
+              "Powering the Nissan Skyline Kenmeri is an inline-six engine, known for its smooth revving and capable performance. The combination of the engine's responsiveness and the car's balanced chassis has contributed to the enduring appeal of the Skyline Kenmeri among automotive enthusiasts"
+            ],
+            "details": {
+              "Mileage": "90475km",
+              "Year": "5/1973",
+              "Chassis_number": "KGC110-072338",
+              "Fuel": "Gasoline",
+              "Transmission": "M/T5"
+            },
+            "images": [
+              "../images/products/nissan-skyline-sale.jpg",
+              "../images/products/nissan-skyline-sale 1.jpg",
+              "../images/products/nissan-skyline-sale 2.jpg",
+              "../images/products/nissan-skyline-sale 3.jpg",
+              "../images/products/nissan-skyline-sale 4.jpg",
+              "../images/products/nissan-skyline-sale 5.jpg"
+            ]
+          },
+
+          {
+            "title": "Nissan Hakosuka GTR KPGC10",
+            "key_facts": [
+              "The Nissan Hakosuka GTR KPGC10, an iconic and historic model, represents the genesis of the legendary GT-R lineup. Introduced in the early 1970s, this classic coupe is celebrated for its boxy styling, race-inspired performance, and its pivotal role in establishing the GT-R as a symbol of Nissan's motorsport prowess.",
+              "Beneath the hood, the Nissan Hakosuka GTR KPGC10 is powered by a formidable 2.0-liter inline-six engine, known for its rev-happy nature and robust performance on the track. The engine's racing heritage and technological innovation have solidified its place in automotive history, contributing to the Hakosuka GTR's legendary status among enthusiasts."
+            ],
+            "details": {
+              "Mileage": "29820km",
+              "Year": "5/1973",
+              "Chassis_number": "KPGC10-000494",
+              "Fuel": "Gasoline",
+              "Transmission": "M/T5"
+            },
+            "images": [
+              "../images/products/hakosuka-gtr-sale.jpg",
+              "../images/products/hakosuka-gtr-sale 1.jpg",
+              "../images/products/hakosuka-gtr-sale 2.jpg",
+              "../images/products/hakosuka-gtr-sale 3.jpg",
+              "../images/products/hakosuka-gtr-sale 4.jpg",
+              "../images/products/hakosuka-gtr-sale 5.jpg"
+            ]
+          },
+
+          {
+            "title": "BMW E30 M3",
+            "key_facts": [
+              "The BMW E30 M3 is a high-performance variant of the iconic E30 3 Series, produced by BMW's M division. Launched in the late 1980s, the E30 M3 is celebrated for its agile handling, powerful engine, and success in motorsports, making it a coveted classic among automotive enthusiasts.",
+              "Powered by a high-revving 2.3-liter four-cylinder engine, known for its remarkable performance and responsiveness. With its motorsport-inspired design, the S14 engine in the E30 M3 delivers a perfect balance of power and precision, contributing to the car's legendary status in the automotive world."
+            ],
+            "details": {
+              "Mileage": "86000km",
+              "Year": "5/1987",
+              "Chassis_number": "WBSAK050301894473",
+              "Fuel": "Gasoline",
+              "Transmission": "M/T"
+            },
+            "images": [
+              "../images/products/bmw_e30_m3.jpg",
+              "../images/products/bmw_e30_m3 1.jpg",
+              "../images/products/bmw_e30_m3 2.jpg",
+              "../images/products/bmw_e30_m3 3.jpg",
+              "../images/products/bmw_e30_m3 4.jpg",
+              "../images/products/bmw_e30_m3 5.jpg"
+            ]
+          },
+
+          {
+            "title": "Lancia Delta Integrale EVO II",
+            "key_facts": [
+              "The Lancia Delta Integrale Evo II, a rally-bred masterpiece, is celebrated for its dominance in the World Rally Championship during the early 1990s. Featuring advanced all-wheel drive, a turbocharged engine, and distinctive styling, the Evo II stands as a symbol of Lancia's motorsport success and engineering prowess.",
+              "Under the hood, the Lancia Delta Integrale Evo II boasts a turbocharged 2.0-liter four-cylinder engine, delivering a potent blend of power and precision. Renowned for its torquey performance and rallying pedigree, the engine's turbocharging technology contributes to the Evo II's exceptional acceleration and dynamic driving characteristics."
+            ],
+            "details": {
+              "Mileage": "97000km",
+              "Year": "5/1994",
+              "Chassis_number": "ZLA831AB000554788",
+              "Fuel": "Gasoline",
+              "Transmission": "M/T"
+            },
+            "images": [
+              "../images/products/delta_intgrale.jpg",
+              "../images/products/delta_intgrale 1.jpg",
+              "../images/products/delta_intgrale 2.jpg",
+              "../images/products/delta_intgrale 3.jpg",
+              "../images/products/delta_intgrale 4.jpg",
+              "../images/products/delta_intgrale 5.jpg"
+            ]
+          },
+
+          {
+            "title": "Honda NSX for sale",
+            "key_facts": [
+              "The Honda NSX, a pinnacle of Japanese engineering, is renowned for redefining the supercar landscape with its groundbreaking design and performance. Introduced in the early 1990s, the NSX combines cutting-edge technology, precision handling, and a mid-engine layout to deliver a thrilling driving experience, solidifying its status as an automotive icon.",
+              "Powering the Honda NSX is a high-revving and naturally aspirated V6 engine, showcasing Honda's commitment to performance and innovation. Known for its responsive throttle and seamless integration with the car's chassis, the NSX's engine contributes to its reputation as a driver-focused and exhilarating supercar."
+            ],
+            "details": {
+              "Mileage": "128230km",
+              "Year": "5/1991",
+              "Chassis_number": "NA1-1004210",
+              "Fuel": "Gasoline",
+              "Transmission": "A/T"
+            },
+            "images": [
+              "../images/products/bmw_8.jpg",
+              "../images/products/bmw_8 1.jpg",
+              "../images/products/bmw_8 2.jpg",
+              "../images/products/bmw_8 3.jpg",
+              "../images/products/bmw_8 4.jpg",
+              "../images/products/bmw_8 5.jpg"
+            ]
+          },
+
+          {
+            "title": "Mercedes-Benz R129 500SL",
+            "key_facts": [
+              "The Mercedes-Benz R129 500SL, part of the SL-Class, is a luxurious and stylish convertible introduced in the early 1990s. Renowned for its powerful 5.0-liter V8 engine, elegant design, and innovative features, the R129 500SL embodies a harmonious blend of performance and sophistication.",
+              "The Mercedes-Benz R129 500SL is propelled by a robust 5.0-liter V8 engine, delivering a potent combination of smooth power delivery and refined performance. Renowned for its effortless acceleration and smooth operation, the engine contributes to the overall luxurious driving experience of the R129 500SL convertible."
+            ],
+            "details": {
+              "Mileage": "51000km",
+              "Year": "5/1992",
+              "Chassis_number": "WBD301127671290",
+              "Fuel": "Gasoline",
+              "Transmission": "A/T"
+            },
+            "images": [
+              "../images/products/mercedes_sl.jpg",
+              "../images/products/mercedes_sl 1.jpg",
+              "../images/products/mercedes_sl 2.jpg",
+              "../images/products/mercedes_sl 3.jpg",
+              "../images/products/mercedes_sl 4.jpg",
+              "../images/products/mercedes_sl 5.jpg"
+            ]
+          },
+
+          {
+            "title": "BMW E34 M5 3.8l Nurburgring Edition",
+            "key_facts": [
+              "The BMW M5 E34, a classic from the early 1990s, is renowned for its blend of high-performance capabilities and elegant design. Powered by a potent inline-six or V8 engine, the E34 M5 is celebrated as one of the quintessential sports sedans, offering exhilarating driving dynamics and a touch of luxury.",
+              "Under the hood, the BMW M5 E34 is propelled by a high-performance inline-six or V8 engine, delivering a perfect synthesis of power and precision. Renowned for its sophisticated engineering, the E34 M5 engine ensures a thrilling driving experience with robust acceleration and a harmonious balance between sportiness and refinement."
+            ],
+            "details": {
+              "Mileage": "170000km",
+              "Year": "5/1992",
+              "Chassis_number": "WBSHC91040GD63949",
+              "Fuel": "Gasoline",
+              "Transmission": "M/T"
+            },
+            "images": [
+              "../images/products/bmw_m5.jpg",
+              "../images/products/bmw_m5 1.jpg",
+              "../images/products/bmw_m5 2.jpg",
+              "../images/products/bmw_m5 3.jpg",
+              "../images/products/bmw_m5 4.jpg",
+              "../images/products/bmw_m5 5.jpg"
+            ]
+          },
+
+          {
+            "title": "Mercedes-Benz 560 SEL for sale",
+            "key_facts": [
+              "The Mercedes-Benz 560 SEL, a flagship model of the W126 S-Class, epitomizes luxury and sophistication in the automotive world. Introduced in the 1980s, this executive sedan is celebrated for its opulent interior, advanced features, and a powerful V8 engine, making it a symbol of automotive excellence and comfort.",
+              "The heart of the Mercedes-Benz 560 SEL lies in its potent 5.6-liter V8 engine, delivering a smooth and commanding performance befitting a luxury sedan. Renowned for its refined power delivery, the engine ensures a serene driving experience, underscoring the 560 SEL's status as a pinnacle of automotive luxury."
+            ],
+            "details": {
+              "Mileage": "97000km",
+              "Year": "5/1991",
+              "Chassis_number": "WDB1260391A578676",
+              "Fuel": "Gasoline",
+              "Transmission": "A/T"
+            },
+            "images": [
+              "../images/products/mercedes_s_class.jpg",
+              "../images/products/mercedes_s_class 1.jpg",
+              "../images/products/mercedes_s_class 2.jpg",
+              "../images/products/mercedes_s_class 3.jpg",
+              "../images/products/mercedes_s_class 4.jpg",
+              "../images/products/mercedes_s_class 5.jpg"
+            ]
+          }
+          
+          
+          
+          
+    ]
+}
