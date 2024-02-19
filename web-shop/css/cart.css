@@ -33,15 +33,24 @@ h3{
     font-size: 1.3rem;
     font-weight: bolder;
 }
-.item1, .item2, .item3, .total{
+.item1, .item2, .item3, .total, .item{
     border: solid 2px;
     width: 50%;
     text-align: center;
+}
+.delete{
+    background-color: red;
+    padding: 10px;
+    width: 38px;
 }
 .button{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.delete:hover{
+    background-color: rgb(8, 51, 241);
+    color: black;
 }
 .button button{
     padding: 1%;
