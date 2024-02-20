@@ -38,6 +38,9 @@ function displayCartItems() {
     section.innerHTML = ''; // Brise sve sta je trenutno u cartu, uz pomoc ovog izbjegavamo duplitkate osim ako korisnik sam ne zeli kupiti vise istih itema
 
     let cartItems = JSON.parse(localStorage.getItem('cartItems')) || []; //ponovno ispsisuje u cart sve iteme sto su spremljeni u LocalStorage, || [] je tu u slucaju da nemamo nista u cartu da ne pukne kod
+
+    let totalPrice = cartItems.reduce((total, item) => total + item.price, 0);// racuna total price itema u kosari
+
     cartItems.forEach(item => {
         let createDiv = document.createElement('div');
         createDiv.className = 'item';
@@ -54,6 +57,11 @@ function displayCartItems() {
         section.appendChild(createDiv);
     });
 
+    let totalDiv = document.createElement('div');
+    totalDiv.className = 'total';
+    totalDiv.textContent = `Total: € ${totalPrice.toFixed(2)}`; // Fixed to 2 decimal places
+    section.appendChild(totalDiv);
+
     listenerDeleteButton();
     
     localStorage.removeItem('selectedIndex');
@@ -62,7 +70,7 @@ function displayCartItems() {
 function listenerDeleteButton(){ //morao sam izbaciti u drugu funkciju ovo za delete jer sam je prvo drzao u for each petlji koja bi radi window.onload se pokretela i onda bi dodavala event listener na event listener u delete botune. Ovako se dodaju samo jedan put. Kada ih ima vise tada se brisu svi itemi iza selectiranog delete botuna.
     
         let arrayDelete = document.querySelectorAll('.delete');
-        let deleteButtons = Array.from(arrayDelete); //node listu pretvara u arrayž
+        let deleteButtons = Array.from(arrayDelete); //node listu pretvara u array
         let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
 
         deleteButtons.forEach((button, buttonIndex) => {
@@ -78,6 +86,10 @@ function listenerDeleteButton(){ //morao sam izbaciti u drugu funkciju ovo za de
                 window.location.reload();
             });
         });
+}
+
+function deleteOrder(){
+    localStorage.removeItem('cartItems');
 }
 window.onload = displayCartItems
 

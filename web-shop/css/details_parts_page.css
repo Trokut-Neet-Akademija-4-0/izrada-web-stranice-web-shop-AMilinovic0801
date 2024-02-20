@@ -14,6 +14,22 @@ body{
     color: white;
     height: 70vh;
 }
+.parts_button{
+    background-color: black !important;
+    color: white !important;
+    font-size: 1.3rem !important;
+    border: solid !important;
+    padding: 4% 8% !important;
+    border-radius: 1.5rem !important;
+    transition-property: background-color, color !important;
+    transition-duration: 0.4s !important;
+    transform-style: ease-in-out !important; 
+}
+.parts_button:hover{
+    background-color: white !important;
+    color: mediumblue !important;
+    border-color: white !important;
+}
 .content_container{
     display: flex;
     justify-content: center;
